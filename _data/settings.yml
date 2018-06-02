@@ -62,10 +62,9 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+- {icon: 'facebook', link: 'https://www.facebook.com/paulina.lapinska99'}
+- {icon: 'github', link: 'https://github.com/lapinskap/'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/lapinskap/'}
+- {icon: 'envelope', link: 'mailto:cherry3475@gmail.com'}
 
-# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+# social network icons available:  'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

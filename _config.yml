@@ -10,8 +10,7 @@ sass:
   sass_dir: assets/css
   style: :nested
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		           "Portfolio Jekyll Theme"
+title:		           "Portfolio Site"
 description:	       "Powered by Jekyll and GitHub Pages"
-author:              "Paul Le"
+author:              "Paulina Łapińska"
