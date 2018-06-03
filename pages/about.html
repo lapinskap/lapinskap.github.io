@@ -3,4 +3,20 @@ layout: page
 title: About
 ---
 
-{{ site.data.settings.about | markdownify }}
+<div class="column-wrapper">
+    <div class="image"> {% include image.html  image="projects/avatar.jpg" %} </div> 
+    <div class="about"> {{ site.data.settings.about | markdownify }} </div>
+</div>
+
+<style>
+    .column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 10%;
+    }
+    .image {
+        border-radius: 50%;
+    }
+</style>
+
+{% include footer.html %}

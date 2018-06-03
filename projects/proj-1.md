@@ -1,8 +1,25 @@
 ---
 layout: post
-title: 'Project One'
+title: 'Indecision App - ToDo in React'
 ---
-Mauris velit metus, tempor gravida nulla eget, auctor accumsan tellus. Curabitur volutpat sed dolor quis tempus. In scelerisque aliquam felis at tincidunt. Proin non augue fringilla, [pretium justo vitae](#), maximus dui. Nunc ipsum nisi, fermentum sit amet volutpat cursus, sodales ac nisl. Quisque nec tellus sem. Cras pharetra felis non quam mollis, nec efficitur lectus aliquet. Maecenas ipsum felis, eleifend nec [semper venenatis](#), consequat ut nunc. Donec est augue, facilisis quis placerat sed, imperdiet sit amet neque. Maecenas nec risus metus. Nunc non condimentum ipsum. Phasellus consectetur dapibus massa, convallis iaculis nisi vestibulum id. Phasellus et fringilla augue. Donec consequat dui ut rutrum elementum. Aenean nisi arcu, ornare eu lacus vel, faucibus tempor tortor.
+
+My first steps to learn React Components. The playground folder contains simple jsx and es6 scripts, mainly the methods that I've learned to build more complex applications.
+Inspired by Andrew Mead tutorials and React Documentation.
+I implemented SCSS for the first time here + it is my first RWD experience (I added another styles for mobile devices)
+[semper venenatis](#)
+
+[<button name="button" class="btn">Live demo</button>](http://www.google.com)
+[<button name="button" class="btn">View code</button>](https://gitlab.com/lapinskap/react-components-1)
+
+<style> 
+.btn {
+    color: black;
+    background-color: #e5e5e5;
+    cursor: pointer;
+    border: none;
+}
+</style>
+
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
 
