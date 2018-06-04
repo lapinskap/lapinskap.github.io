@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Project Two'
+title: 'Expensify'
 ---
 
 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
 
-[<button name="button" class="btn">Live demo</button>](http://www.google.com)
-[<button name="button" class="btn">Git repo</button>](http://www.google.com)
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/lapinskap/react-components-1" target="_blank"><button name="button" class="btn">View code</button></a>
 
 <style> 
 .btn {
@@ -17,5 +17,6 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 }
 </style>
 
-
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-2/thumb.jpg" %}

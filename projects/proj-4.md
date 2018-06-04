@@ -5,8 +5,8 @@ title: 'Project Four'
 
 In diam odio, facilisis eu elementum in, sodales ut dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean fermentum ante vitae sagittis efficitur. Praesent interdum sagittis porttitor. Duis non hendrerit metus. Nullam bibendum nunc cursus elit cursus ornare. Nulla eget sodales erat. Quisque laoreet nibh eu eleifend vehicula.
 
-[<button name="button" class="btn">Live demo</button>](http://www.google.com)
-[<button name="button" class="btn">Git repo</button>](http://www.google.com)
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/lapinskap/react-components-1" target="_blank"><button name="button" class="btn">View code</button></a>
 
 <style> 
 .btn {
