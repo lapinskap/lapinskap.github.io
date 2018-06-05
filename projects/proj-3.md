@@ -27,4 +27,22 @@ The Ideas-app is used to collect ideas from the organizers and participants of G
 * user can like/unlike idea
 * user can invite friends to app
 
+###  Contribute
+
+Issue Tracker: https://gitlab.com/codegirlsgorzow/idea-app/issues
+
+Source Code: https://gitlab.com/codegirlsgorzow/idea-app
+
+Test: rspec
+
+###  Development
+
+All emails will be send to tmp/mail
+
+
+###  License
+
+This project is released under the MIT Licence. 
+See the bundled LICENSE file for details.
+
 {% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}
