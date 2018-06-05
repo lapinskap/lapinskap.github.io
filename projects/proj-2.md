@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Expensify - React & Redux'
+title: 'Expensify - React Router & Redux'
 ---
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+The application is not very inventive, for similar reasons as the Indecision-app, but I spent many hours with it learning how to build complex react applications. Thanks to this project I met the React Router and Redux.
 
 <a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
 <a href="https://gitlab.com/lapinskap/expensify" target="_blank"><button name="button" class="btn">View code</button></a>
@@ -16,6 +16,18 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
     border: none;
 }
 </style>
+
+In this example I got to know the concept of application testing and the first time I turned react app on the production mode.
+### Important topics that I explored while writing this application:
+* Array Destructuring 
+* Reducers, Multiple Reducers
+* Filtering Redux Data
+* The Higher Order Component
+* Controlled Inputs for Filters
+* Redux Dev Tools
+* Jest
+* Enzyme 
+
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
 
