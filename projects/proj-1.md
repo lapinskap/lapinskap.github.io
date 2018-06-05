@@ -35,6 +35,8 @@ It's such an introduction to node.js.
 
 I spent the most time trying to understand data binding. Afterwards getting to know Props and State was very pleasant.
 
+The added options are saved in the local browser's memory, which means that the options that have not been deleted manually are available again after restarting the application.
+
 I used also Third-Party component called "React Modal" - that's the window that pops up when pressing the main button. This application was my first RWD experience - I used `rem` in css and media queries breakpoints to set up another view for small screens: 
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-1/mobile.jpg" %}

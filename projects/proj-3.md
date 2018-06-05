@@ -2,8 +2,7 @@
 layout: post
 title: 'idea-app in Ruby on Rails'
 ---
-
-Donec condimentum a leo nec posuere. Vestibulum faucibus leo nec nisl varius vestibulum. Aenean vel quam semper, vestibulum augue at, rutrum ligula. Ut gravida, ex sit amet fringilla luctus, lorem quam mollis elit, et tristique leo urna non odio. Curabitur elementum viverra consequat. Vestibulum vitae dolor tristique, pellentesque metus non, suscipit nunc. Aenean id sem eu libero sodales dignissim eget quis quam. Phasellus quis lectus ac odio convallis luctus. Praesent sed ligula ipsum. Nullam ultricies nunc nec turpis porttitor elementum. Vestibulum vitae imperdiet elit, nec mattis magna. Vestibulum id neque nec turpis ullamcorper rutrum ac non ligula. Quisque nec pellentesque diam. Vestibulum at aliquam mi, vitae fringilla quam. Suspendisse potenti.
+The Ideas-app is used to collect ideas from the organizers and participants of Gorzów IT events. Users with ideas can create presentations and events. Idea-app is easy to use and solves the problem of communication between users who want to listen to something specific or present.
 
 <a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
 <a href="https://gitlab.com/codegirlsgorzow/idea-app" target="_blank"><button name="button" class="btn">View code</button></a>
@@ -17,5 +16,15 @@ Donec condimentum a leo nec posuere. Vestibulum faucibus leo nec nisl varius ves
 }
 </style>
 
+ Project created on Code Girls Gorzów workshops. This project taught me how to work in a group, create a merge request, work in a scrum system, and operate rubocop.
+
+ {% include image.html url="http://www.gratisography.com" image="projects/proj-3/thumb.jpg" %}
+
+### Features
+
+* user can add new idea
+* user can leave comments 
+* user can like/unlike idea
+* user can invite friends to app
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}

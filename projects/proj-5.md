@@ -3,7 +3,7 @@ layout: post
 title: 'AJP Sentiment Analysis with Reactstrap'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta tortor eros, et cursus diam feugiat eu. Mauris euismod volutpat leo porttitor congue. Curabitur quis purus dignissim, sagittis enim non, interdum enim. Sed vitae nibh sed ante luctus finibus. In fermentum arcu eget volutpat blandit. Nullam leo magna, luctus ac consequat ut, ultrices quis quam. Nullam orci magna, tincidunt consequat arcu vel, facilisis hendrerit lectus. Mauris dapibus, lorem et tincidunt bibendum, massa ipsum consectetur elit, at venenatis nulla nulla id ante.
+An application that checks the quality of a given website.
 
 <a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
 <a href="https://gitlab.com/ajp-gorzow/paulina-lapinska" target="_blank"><button name="button" class="btn">View code</button></a>
@@ -17,5 +17,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta tortor 
 }
 </style>
 
+{% include image.html url="http://www.gratisography.com" image="projects/proj-5/thumb.jpg" %}
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-5/gun-pants.jpg" %}
+The application comes from PQ Studio workshops (programming labs) at Gorzów University (AJP), which I attended with the permission of the dean's office. This is a different approach to React than the ones I have been learning so far. A good comparison of different conventions.
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-5/change2.jpg" %}
+
+ It does not have its own webpack.config configuration - application made from scratch using create-react-app. Instead of SCSS preprocessor, app use styled-components. Another strange feature is Reactstrap. The application views are as follows:
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-5/reset.jpg" %}
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-5/sign-up.jpg" %}
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-5/change.jpg" %}
+

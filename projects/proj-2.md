@@ -18,6 +18,9 @@ The application is not very inventive, for similar reasons as the Indecision-app
 </style>
 
 In this example I got to know the concept of application testing and the first time I turned react app on the production mode.
+
+{% include image.html url="http://www.gratisography.com" image="projects/proj-2/thumb.jpg" %}
+
 ### Important topics that I explored while writing this application:
 * Array Destructuring 
 * Reducers, Multiple Reducers
@@ -32,5 +35,3 @@ In this example I got to know the concept of application testing and the first t
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/add.jpg" %}
-
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/thumb.jpg" %}
