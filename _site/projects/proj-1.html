@@ -78,10 +78,7 @@
   <section>
   <div class="work-container">
     <h4 class="project-title">Indecision App - ToDo in React</h4>
-    <div class="project-load"><p>My first steps to learn React Components. The playground folder contains simple jsx and es6 scripts, mainly the methods that I’ve learned to build more complex applications.
-Inspired by Andrew Mead tutorials and React Documentation.
-I implemented SCSS for the first time here + it is my first RWD experience (I added another styles for mobile devices)
-<a href="#">semper venenatis</a></p>
+    <div class="project-load"><p>This is my first application in React. Yes, it’s not very creative - App was created with the <a href="https://www.udemy.com/react-2nd-edition/" target="_blank">Udemy course</a> by Andrew Mead.</p>
 
 <p><a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
 <a href="https://gitlab.com/lapinskap/react-components-1" target="_blank"><button name="button" class="btn">View code</button></a></p>
@@ -93,6 +90,8 @@ I implemented SCSS for the first time here + it is my first RWD experience (I ad
     border: none;
 }
 </style>
+
+<p>However, I’ve learned React environment and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions" target="_blank">ES6 syntax</a> from the beginning. Before I implemented anything, I practiced specific methods on other examples to get deep understanding. That’s why I spent a lot of time on this project. The most valuable for me is the playground folder. The app was created completely from scratch. From the beginning, I put a lot of weight on the clear file structure and wise names, so I found the <a href="https://en.bem.info/methodology/key-concepts/" target="_blank">BEM</a> naming convention.</p>
 
 <div class="image-container">
   <a href="http://www.gratisography.com" target="_blank">
@@ -120,6 +119,32 @@ I implemented SCSS for the first time here + it is my first RWD experience (I ad
   </a>
 </div>
 
+<p>At the beginning I wrote this application in pure JSX (translated by Babel). It works and even application looks the same as it did later.</p>
+<blockquote>
+  <p>You can see this little monster <a href="https://gitlab.com/lapinskap/react-components-1/blob/master/src/playground/jsx-indecision.js" target="_blank">here</a>.</p>
+</blockquote>
+
+<p>Later I rewrote it using React Components and Webpack.
+I created my own <a href="https://gitlab.com/lapinskap/react-components-1/blob/master/webpack.config.js" target="_blank">webpack.config.js</a> file, which redirected scss files to be loaded by sass-loader. Why do I mention this? Because without this file, scss <strong>will not</strong> work.</p>
+
+<p>It’s such an introduction to node.js.</p>
+
+<p>I spent the most time trying to understand data binding. Afterwards getting to know Props and State was very pleasant.</p>
+
+<p>I used also Third-Party component called “React Modal” - that’s the window that pops up when pressing the main button. This application was my first RWD experience - I used <code class="highlighter-rouge">rem</code> in css and media queries breakpoints to set up another view for small screens:</p>
+
+<div class="image-container">
+  <a href="http://www.gratisography.com" target="_blank">
+    <img src="/assets/img/projects/proj-1/mobile.jpg" alt="Avatar" class="image" />
+    <div class="overlay">
+      <div class="text">
+        
+          View Demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        
+      </div>
+    </div>
+  </a>
+</div>
 </div>
   </div>
   
