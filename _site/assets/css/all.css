@@ -731,11 +731,24 @@ footer {
 body {
   background: white;
   font-family: "Roboto", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  z-index: -1; }
 
 .site-container {
   width: 95vw;
   margin: auto; }
+
+#navbar {
+  overflow: hidden;
+  float: left;
+  display: block;
+  z-index: 5;
+  background-color: white; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .margines {
   width: 100%;

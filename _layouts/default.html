@@ -38,15 +38,34 @@
 
 </head>
 <body>
-
 <div class="site-container">
-
-  {% include header.html %}
-  <div class="margines"></div>
-  {{ content }}
+  <div id="navbar">
+      {% include header.html %}
+      <div class="margines"></div>
+  </div>
+  <div class="content">
+      {{ content }}
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="{{ site.github.url }}/assets/js/functions.js"></script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
+
 </body>
 </html>

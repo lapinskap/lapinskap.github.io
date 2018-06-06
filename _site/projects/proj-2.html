@@ -58,24 +58,26 @@
 
 </head>
 <body>
-
 <div class="site-container">
-
-  <header>
-  <div class="logo">
-    <a href="/">lapinskap.github.io</a>
-  </div>
-  <nav>
-    
-      <a href="/">Projects</a>
-    
-      <a href="/pages/about.html">About & Contact</a>
-    
-  </nav>
+  <div id="navbar">
+      
+<header>
+      <div class="logo">
+          <a href="/">lapinskap.github.io</a>
+        </div>
+        <nav>
+          
+            <a href="/#section2">Projects</a>
+          
+            <a href="/pages/about.html">About & Contact</a>
+          
+        </nav>
 </header>
 
-  <div class="margines"></div>
-  <section>
+      <div class="margines"></div>
+  </div>
+  <div class="content">
+      <section>
   <div class="work-container">
     <h4 class="project-title">Expensify - React Router & Redux</h4>
     <div class="project-load"><p>The application is not very inventive, for similar reasons as the Indecision-app, but I spent many hours with it learning how to build complex react applications. Thanks to this project I met the React Router and Redux.</p>
@@ -187,9 +189,27 @@
 </footer>
 
 
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/assets/js/functions.js"></script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
+
 </body>
 </html>

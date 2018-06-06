@@ -58,24 +58,26 @@
 
 </head>
 <body>
-
 <div class="site-container">
-
-  <header>
-  <div class="logo">
-    <a href="/">lapinskap.github.io</a>
-  </div>
-  <nav>
-    
-      <a href="/">Projects</a>
-    
-      <a href="/pages/about.html">About & Contact</a>
-    
-  </nav>
+  <div id="navbar">
+      
+<header>
+      <div class="logo">
+          <a href="/">lapinskap.github.io</a>
+        </div>
+        <nav>
+          
+            <a href="/#section2">Projects</a>
+          
+            <a href="/pages/about.html">About & Contact</a>
+          
+        </nav>
 </header>
 
-  <div class="margines"></div>
-  <section>
+      <div class="margines"></div>
+  </div>
+  <div class="content">
+      <section>
   <div class="work-container">
     <h4 class="project-title">React Chat with & socket.io / PHP</h4>
     <div class="project-load"><p>Homework for the subject of web applications done totally in my own way. I have to learn PHP for classes, but the idea of creating a chat with static HTML + PHP seemed absurd to me. That’s how I found the socket.io.
@@ -148,9 +150,27 @@ For school purposes, I created two branches in the repository, one from socket.i
 </footer>
 
 
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/assets/js/functions.js"></script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
+
 </body>
 </html>
