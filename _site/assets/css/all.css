@@ -482,7 +482,7 @@ td, th {
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font-weight: bold; }
+  font-weight: 350; }
 
 .gigantic {
   font-size: 110px;
@@ -529,20 +529,20 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #52c0ce;
+  color: #43d9e7;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #a1dde5; }
+  color: #9debf3; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
 ::selection {
-  background: #c9ebf0; }
+  background: #cbf4f8; }
 
 ::-moz-selection {
-  background: #c9ebf0; }
+  background: #cbf4f8; }
 
 img::selection {
   background: transparent; }
@@ -551,7 +551,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #c9ebf0; }
+  -webkit-tap-highlight-color: #cbf4f8; }
 
 /* Basic Styles
  * ------------------------------------	 */
@@ -569,7 +569,7 @@ svg {
   width: 100%; }
 
 h3 {
-  color: #73bee5;
+  color: #6bcaf7;
   text-align: center;
   padding: 100px 0 30px; }
 
@@ -585,7 +585,7 @@ section:nth-child(odd) {
   background: #fff;
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
-    color: #48a9dd; }
+    color: #3ab9f5; }
 
 h3 {
   font-size: 14px;

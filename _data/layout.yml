@@ -4,7 +4,7 @@ animation: "bounceOut"
 
 # Colors
 
-accent: "#52c0ce"
+accent: "rgb(67,217,231)"
 
 textColor: "#666"
 headlineColor: "#333"
