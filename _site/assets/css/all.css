@@ -598,12 +598,7 @@ header {
     float: left;
     margin: 30px;
     font-size: 24px;
-    font-weight: 600;
-    content: ".github.io";
-    color: #ff0000; }
-    header .logo .logo:before {
-      content: "lapinskap";
-      color: #0000ff; }
+    font-weight: 600; }
     header .logo a {
       display: inline-block;
       color: black; }
