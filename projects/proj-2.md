@@ -31,7 +31,9 @@ In this example I got to know the concept of application testing and the first t
 * Jest
 * Enzyme 
 
-I started learning React Router to create an application that will have several subpages, in contrast to "ToDo" app. Afterwards I started to get acquainted with Redux. It took me a long time because I had to understand why we need it. It's about sending props and state between components - Previously application worked if there was a "mother component" that holded the necessary props, for example the "App" component had props for "Options" from the "Add Option" component. Here the situation looks different.
+I started learning React Router to create an application that will have several subpages, in contrast to "ToDo" app. Afterwards I started to get acquainted with Redux. It took me a long time because I had to understand why we need it. It's about sending props and state between components - Previously application worked if there was a "mother component" that holded the necessary props, for example the "App" component had props "Options" from the "Add Option" component. Here the situation looks different - we don't use any "mother component" and we don't wanna store everything in local store. 
+
+I changed props to Reducers. Then I added few actions to the project with `createStore()` and `combineReducers({})`.
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
 
