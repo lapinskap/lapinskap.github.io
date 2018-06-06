@@ -46,3 +46,6 @@ This project is released under the MIT Licence.
 See the bundled LICENSE file for details.
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}
+<br/>
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/codegirlsgorzow/idea-app" target="_blank"><button name="button" class="btn">View code</button></a>

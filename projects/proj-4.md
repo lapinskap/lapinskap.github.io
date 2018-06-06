@@ -20,3 +20,6 @@ For school purposes, I created two branches in the repository, one from socket.i
 
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-4/bike.jpg" %}
+<br/>
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/lapinskap/react-chat" target="_blank"><button name="button" class="btn">View code</button></a>

@@ -40,3 +40,6 @@ The added options are saved in the local browser's memory, which means that the 
 I used also Third-Party component called "React Modal" - that's the window that pops up when pressing the main button. This application was my first RWD experience - I used `rem` in css and media queries breakpoints to set up another view for small screens: 
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-1/mobile.jpg" %}
+<br/>
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/lapinskap/react-components-1" target="_blank"><button name="button" class="btn">View code</button></a>

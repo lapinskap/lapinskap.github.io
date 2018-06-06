@@ -31,3 +31,6 @@ The application comes from PQ Studio workshops (programming labs) at Gorzów Uni
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-5/change.jpg" %}
 
+<br/>
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/ajp-gorzow/paulina-lapinska" target="_blank"><button name="button" class="btn">View code</button></a>

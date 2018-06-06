@@ -35,3 +35,6 @@ In this example I got to know the concept of application testing and the first t
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/add.jpg" %}
+<br/>
+<a href="http://www.google.com" target="_blank"><button name="button" class="btn">Live demo</button></a>
+<a href="https://gitlab.com/lapinskap/expensify" target="_blank"><button name="button" class="btn">View code</button></a>
