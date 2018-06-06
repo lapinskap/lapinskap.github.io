@@ -3,8 +3,96 @@ layout: default
 title: Home
 ---
 
-{% include landingpage.html %}
+<html>
+    <head>
 
-{% include thumbnails.html %}
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="scroll-down.js"></script>
+        <style>
+            .separator-type, .title-type, .intro-type, .content-type .intro-type p {
+  position: relative;
+}
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+.company-heading h1 {
+  margin-bottom: 60px;
+  padding-bottom: 50px;
+  line-height: 80px;
+  color: black;
+  font-weight: 700 !important;
+  text-align: center;
+}
 
-{% include footer.html %}
+.seo-header, .product-header, 
+.intro-type .container h1.white, 
+.company-heading h1 {
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+img, 
+figure {
+  max-width: 100%;
+}
+        </style>
+
+
+        <script>
+                    $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+                } 
+            });
+});
+        </script>
+    </head>
+    <body>
+        <section class="company-heading intro-type" id="parallax-one">
+            <div class="container">
+              <div class="row product-title-info">
+                <div class="col-md-12">
+                  <h1> Check out what I've created below </h1>
+                  <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://png.icons8.com/ios/1600/expand-arrow.png"></a>
+                </div>
+              </div>
+            </div>
+            </section>
+          <div class="main">
+            <section id="section2">
+              
+             {% include thumbnails.html %}
+ 
+              
+            </section>
+          </div>
+          {% include footer.html %}
+
+    </body>
+</html>
