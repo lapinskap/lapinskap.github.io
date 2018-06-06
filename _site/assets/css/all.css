@@ -740,8 +740,6 @@ body {
 
 #navbar {
   overflow: hidden;
-  float: left;
-  display: block;
   z-index: 5;
   background-color: white; }
 
